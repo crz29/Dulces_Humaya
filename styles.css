@@ -355,14 +355,23 @@ body{
 .menu__item{
     list-style-type: none;
 }
-
-.nav-link{
-    font-size: 1.5rem;
-    font-weight: bold;
-    color: white;
-    text-decoration: none;
+.footer__social{
+    display: flex;
+    flex-direction: column;
 }
-.nav-link:hover{
-    cursor: pointer;
+.footer__item{
+    list-style-type: none;
+}
+.footer__icon{
+    width: 0.5rem;
+    height: 0.5rem;
+    
+}
+
+.fa-brands{
+    color: white;
+
+}
+.footer__icon:hover{
     color: white;
 }
