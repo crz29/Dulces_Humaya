@@ -1,0 +1,368 @@
+body{
+    margin: 0;
+
+}
+.estilo{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+.nav__elemen{
+    background: url("IMAGENES/Central/imagenCentral.png") no-repeat center / cover;
+    margin-bottom: 0;
+    margin-top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.navbar{
+    background: linear-gradient(rgba(17, 1, 1, 0.87) 20%, transparent 80%);
+    display: flex;
+    justify-content: center;
+    height: 40vh;
+    font-size: 3rem;
+    font-weight: normal;
+}
+.collapse{
+    justify-content: center;
+    
+}
+.navbar-nav{
+    display: flex;
+    align-content: center;
+   
+}
+.nav-item{
+    list-style-type: none;
+     font-size: 1.1rem;
+    margin-right: .7rem;
+    margin-bottom: .7rem;
+    margin-left: .7rem;
+  
+}
+
+.nav-link{
+    font-size: 1.5rem;
+    color: white;
+    text-decoration: none;
+}
+.nav-link:hover{
+    cursor: pointer;
+    color: white;
+}
+
+.img__logo__ppal{
+    width: 10vw;
+    height: 20vh;
+    align-items: center;
+}
+
+.central__background{
+     
+    width: 100%;
+}
+
+
+
+/*Bloque PARRAFO en HEADER*/
+.container__titulo__parrafo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 50%;
+    padding-top: 15rem;
+    padding-bottom: 5rem;
+    
+}
+
+._titulo{
+    font-size: 3rem;
+}
+._parrafo{
+    margin-top: 2rem;
+    font-size: 1.5rem;
+
+}
+._conocenos{
+    background-color: grey;
+    opacity: 0.4;
+    border-radius: 2.5rem;
+    width: 15vw;
+    height: 10vh;
+    text-decoration: none;
+    text-align: center;
+    padding: 0.7rem;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    color: white;
+}
+._conocenos:hover{
+    color: white;
+    cursor: pointer;
+}
+/*Presentación*/
+.productos{
+    color: white;
+    background-color: rgb(59, 55, 55);
+    text-align: center;
+    padding: 2.5rem;
+    margin-top: 0;
+    margin-bottom: 0;
+
+
+}
+.container__productos{
+    display: flex;
+    flex-direction: column;
+    margin-top: 0;
+}
+.container__producto{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    align-content: center;
+    height: 45vh;
+    
+}
+
+.container__prod__descrip1{
+    text-align: justify;
+    margin-right: 3rem;
+    font-size: 1.2rem;
+    color: white;
+    margin-top: 1.5rem;
+
+}
+.container__prod__descrip2{
+    text-align: justify;
+    margin-left: 3rem;
+    font-size: 1.2rem;
+    color: white;
+    margin-top: 1.5rem;
+
+
+}
+.prod__color__titulo{
+    color: rgb(223, 181, 129);
+    font-size: 2rem;
+}
+
+
+
+.prod__descrip__tamano{
+    color: rgb(223, 181, 129);
+    font-weight: bold;
+}
+.img__producto1{
+    width: 50%;
+    height: 45vh;
+    margin-bottom: 0;    
+    margin-right: 0;    
+    margin-left: 0;
+   
+}
+.img__producto2{
+    width: 50%;
+    height: 45vh;
+    margin-top: 0;
+    margin-bottom: 0;    
+    margin-right: 0; 
+
+}
+/* Bloque ALFAJOR*/
+.container__producto__alfajor{
+    display: flex;
+    background-color: rgb(207, 181, 140);
+    width: 100%;
+    height: 45vh;
+    justify-content: space-between;
+ 
+}
+
+.container__prod__descrip__alfa{
+    flex-direction: column;
+    margin-top: 1.5rem;
+    text-align: justify;
+    align-items: center;
+    margin-left: 3rem;
+    font-size: 1.2rem;
+    color: white;
+ 
+}
+.prod__color__titulo__alfa{
+    color: rgb(163, 94, 10);
+    font-size: 2rem;
+}
+
+.prod__color__tamano__alfa{
+    color: rgb(163, 94, 10);
+    font-weight: bold;
+}
+.img__producto__alfajor{
+    margin-right: 0;
+    width: 35vw;
+    height: 45vh;
+}
+/*Bloque CONTACTO*/
+.img__contacto__form{
+    height: 55vh;;
+    width: 100%;
+
+}
+
+.container__contacto{
+    display: flex;
+    margin-top: 0;
+    margin-bottom: 0;
+    
+}
+.contacto__img{
+   width: 40%;
+ 
+}
+.contacto__form{
+    
+    display: flex;
+    
+    width: 40vw;
+    justify-content: center;
+    
+}
+
+.form__label {
+    color: rgb(163, 94, 10);
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: left;
+    margin-top: 2rem;
+
+}
+.input-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    box-sizing: border-box;
+  }
+
+
+.input-label{
+    color: rgb(163, 94, 10);
+    text-align: left;
+
+}
+#name{
+    background-color: #bd9269d8;
+    height: 3rem;
+}
+#email{
+    background-color: #bd9269d8;
+    height: 3rem;
+}
+#consulta{
+    background-color: #bd9269d8;
+    height: 4rem;
+}
+
+/*Bloque RECETAS*/
+.recetas__titulo{
+    background-color: rgb(59, 55, 55);
+    text-align: center;
+    padding: 2.5rem;
+    margin-bottom: 0;
+    margin-top: 0;
+    color: white;
+
+}
+.container__recetas{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(59, 55, 55);    
+    margin-top: 0;
+    margin-bottom: 0;
+    justify-content: center;
+    align-content: center;
+}
+.container__receta{
+    display: flex;
+    flex-direction: column;
+    width: calc(30% - 2rem);    
+    margin-right: 1.5rem;
+   padding: 1.5rem;
+}
+
+.receta__img{
+    height: 40vh;
+    width: 100%;
+}
+.receta{
+    background-color: rgb(207, 181, 140);
+    
+    text-align: center;
+    justify-content: center;
+    padding: 1rem;
+    padding-top: 0.5rem;
+}
+.receta__titulo{
+    font-size: 1.5rem;
+    color: rgb(163, 94, 10);
+    
+}
+.receta__parrafo{
+    color: white;
+    font-size: .8rem;
+    text-align: justify;
+}
+
+/*FOOTER CON Encontranos*/
+.encontranos{
+    height: 10vh;
+    background-color: black;
+    text-align: center;
+    padding: 2.5rem;
+    color: white;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.container__footer{
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 2rem;
+
+}
+.footer__humaya{
+    align-content: center;
+    width: 20vw;
+    height: 20vh;
+    padding: 0.5rem;
+
+}
+.container__contac{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.menu__titulo{
+    list-style-type: none;
+    color:rgb(207, 181, 140);
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+    
+
+}
+.menu__item{
+    list-style-type: none;
+}
+
+.nav-link{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+.nav-link:hover{
+    cursor: pointer;
+    color: white;
+}
