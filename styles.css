@@ -373,3 +373,14 @@ body{
 .footer__icon:hover{
     color: white;
 }
+.botones{
+    border: solid rgb(163, 94, 10) 4px;
+    color: rgb(163, 94, 10);
+    text-decoration: none;
+    font-size: 0.8rem;
+    padding: 0.3rem 0.7rem;
+    
+}
+.botones:hover{
+    color: rgb(163, 94, 10) ;
+}
