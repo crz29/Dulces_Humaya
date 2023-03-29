@@ -11,14 +11,14 @@ body{
     margin-bottom: 0;
     margin-top: 0;
     width: 100%;
-    height: 100%;
+    height: 80vh;
 }
 
 .navbar{
     background: linear-gradient(rgba(17, 1, 1, 0.87) 20%, transparent 80%);
     display: flex;
     justify-content: center;
-    height: 40vh;
+    height: 30vh;
     font-size: 3rem;
     font-weight: normal;
 }
@@ -29,11 +29,11 @@ body{
 .navbar-nav{
     display: flex;
     align-content: center;
-   
+       
 }
 .nav-item{
     list-style-type: none;
-     font-size: 1.1rem;
+    font-size: 1.1rem;
     margin-right: .7rem;
     margin-bottom: .7rem;
     margin-left: .7rem;
@@ -52,7 +52,7 @@ body{
 
 .img__logo__ppal{
     width: 10vw;
-    height: 20vh;
+    height: 15vh;
     align-items: center;
 }
 
@@ -68,9 +68,9 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    position: absolute;
     margin-left: 50%;
-    padding-top: 15rem;
-    padding-bottom: 5rem;
+    margin-bottom: 2rem;
     
 }
 
@@ -78,29 +78,27 @@ body{
     font-size: 3rem;
 }
 ._parrafo{
-    margin-top: 2rem;
+    margin-top: 1rem;
     font-size: 1.5rem;
 
 }
 ._conocenos{
     background-color: grey;
-    opacity: 0.4;
-    border-radius: 2.5rem;
-    width: 15vw;
-    height: 10vh;
+    border-radius: 5rem;
+    width: 10vw;
+    height: 7vh;
     text-decoration: none;
     text-align: center;
     padding: 0.7rem;
-    font-size: 1.2rem;
+    font-size: 1rem;
     margin-top: 1rem;
-    color: white;
 }
 ._conocenos:hover{
     color: white;
     cursor: pointer;
 }
-/*Presentación*/
-.productos{
+/*Presentación de Productos*/
+.estilo2{
     color: white;
     background-color: rgb(59, 55, 55);
     text-align: center;
@@ -204,7 +202,7 @@ body{
 }
 /*Bloque CONTACTO*/
 .img__contacto__form{
-    height: 55vh;;
+    height: 40vh;
     width: 100%;
 
 }
