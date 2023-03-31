@@ -83,13 +83,13 @@ body{
 
 }
 ._conocenos{
-    background-color: grey;
+    background-color: rgb(128, 116, 85);
     border-radius: 5rem;
-    width: 10vw;
-    height: 7vh;
+    /*width: 10vw;
+    height: 7vh;*/
     text-decoration: none;
     text-align: center;
-    padding: 0.7rem;
+    padding: 0.5rem;
     font-size: 1rem;
     margin-top: 1rem;
 }
@@ -164,6 +164,14 @@ body{
     margin-top: 0;
     margin-bottom: 0;    
     margin-right: 0; 
+
+}
+.botones1{
+    color: rgb(223, 181, 129);
+    border: solid rgb(223, 181, 129) 4px;
+    text-decoration: none;
+    font-size: 0.8rem;
+    padding: 0.3rem 0.7rem;
 
 }
 /* Bloque ALFAJOR*/
@@ -381,6 +389,14 @@ body{
     padding: 0.3rem 0.7rem;
     
 }
+
 .botones:hover{
     color: rgb(163, 94, 10) ;
+}
+
+.maquetado{
+    background-color: rgb(207, 181, 140);;
+    text-align: center;
+    margin: 0;
+
 }
